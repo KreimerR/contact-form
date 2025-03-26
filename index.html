@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/App.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  </style>
+  <title>Contact form</title>
+</head>
+<body>
+  <div class="notification-container" id="notification-el">
+    <div class="success-message-container">
+      <img src="img/check-mark.png" alt="check-mark" class="check-icon" width="20px">
+      <h3 class="success-message">Message Sent!</h3>
+    </div>
+    <p class="success-p">Thanks for completing the form. We'll be in touch soon!</p>
+  </div>
+  <div class="form-container">
+    <h2 class="contact-us">Contact Us</h2>
+
+    <div class="container-names">
+      <div class="first-name-container">
+        <p class="name-p name-first">First Name: <span class="asterics">*</span></p>
+        <input type="text" class="name-input" id="first-name-input">
+        <p class="name-p-error name-first-error" id="first-name-error">This field is required</p>
+      </div>
+
+      <div class="last-name-container">
+        <p class="name-p name-first last-name-p">Last Name: <span class="asterics">*</span></p>
+        <input type="text" class="name-input" id="last-name-input">
+        <p class="name-p-error name-first-error" id="last-name-error">This field is required</p>
+      </div>
+    </div>
+
+    <div class="email-container">
+      <p class="name-p">Email Address <span class="asterics">*</span></p>
+      <input type="text" class="email-input" id="email-input">
+      <p class="name-p-error" id="email-error">Please enter a valid email address</p>
+    </div>
+
+    <p class="name-p">Query Type <span class="asterics">*</span></p>
+    <div class="query-container">
+      <label class="query-btn query-btn-1" id="query-btn-1">
+        <input type="radio" name="query" class="query-input">
+        <span class="query-label">General Enquiry</span>
+      </label>
+
+      <label class="query-btn" id="query-btn-2">
+        <input type="radio" name="query" class="query-input">
+        <span class="query-label">Support Request</span>
+      </label>
+    </div>
+    <p class="name-p-error" id="query-error">Please select a query type</p>
+
+    <div class="message-container">
+      <p class="name-p">Message <span class="asterics">*</span></p>
+      <textarea class="message-input" id="message-input"></textarea>
+      <p class="name-p-error" id="message-error">This field is required</p>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" class="checkbox" id="checkbox-el">
+      <p class="checkbox-p">I consent to being contacted by the team <span class="asterics">*</span></p>
+    </div>
+    <p class="name-p-error" id="checkbox-error">To submit this form, please consent to being contacted</p>
+
+    <div class="submit-btn" id="submit-btn">Submit</div>
+  </div>
+  <script src="App.js"></script>
+</body>
+</html>

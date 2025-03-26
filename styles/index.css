@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    color: hsl(187, 24%, 22%);
+    font-size: 16px;
+}
+
+input, textarea {
+    color: hsl(187, 24%, 22%);
+    border: 1px hsl(187, 24%, 22%) solid;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+input, textarea:focus {
+    outline-color: hsl(169, 82%, 27%);
+}
