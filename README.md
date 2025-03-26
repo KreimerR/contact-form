@@ -30,9 +30,9 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
 
 ## Screenshots
 
-<img src="./img/screenshots/form-desktop.png" alt="Form desktop" width="400">
-<img src="./img/screenshots/form-desktop-full.png" alt="Form desktop full" width="400">
-<img src="./img/screenshots/form-desktop-full-sent.png" alt="Form desktop full sent" width="400">
-<img src="./img/screenshots/form-desktop-missed-field.png" alt="Form desktop missed field" width="400">
+<img src="./img/screenshots/form-desktop.png" alt="Form desktop" width="800">
+<img src="./img/screenshots/form-desktop-full.png" alt="Form desktop full" width="800">
+<img src="./img/screenshots/form-desktop-full-sent.png" alt="Form desktop full sent" width="800">
+<img src="./img/screenshots/form-desktop-missed-field.png" alt="Form desktop missed field" width="800">
 <img src="./img/screenshots/form-mobile-full.png" alt="Form mobile full" width="400">
 <img src="./img/screenshots/form-mobile-full-sent.png" alt="Form mobile full sent" width="400">
